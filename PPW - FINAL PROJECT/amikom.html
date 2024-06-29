@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universitas AMIKOM Yogyakarta</title>
+    <!-- Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feather Icons-->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script
+      src="https://kit.fontawesome.com/2f7cb4f94e.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Style CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-purple fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="asset/logo-amikom-t.png" alt="Logo AMIKOM" height="50" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#daftar">Daftar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item login-button" >
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="hamburger-menu"
+                ><i data-feather="menu"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End-->
+
+    <!-- Hero section start-->
+    <section class="hero" id="home">
+      <main class="content" src="/asset/amikom-pmb.jpg">
+        <h1>Universitas <span> AMIKOM</span> Yogyakarta</h1>
+        <p>CREATIVE ECONOMY PARK</p>
+      </main>
+    </section>
+    <!-- Hero section end-->
+    
+    <!-- Section About start-->
+    <div class="container-fluid about pt-5 pb-5 mt-3 mb-5" id="about">
+      <div class="container text-center">
+        <h2 class="mt-5" >UNIVERSITAS AMIKOM YOGYAKARTA</h2>
+        <p>Kenapa Harus Kuliah Di AMIKOM Yogyakarta ?</p>
+        <div class="row pt-4">
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fa-solid fa-medal fa-5x"></i></span>
+            <h3 class="mt-3">Terakreditasi B</h3>
+            <p>Universitas AMIKOM Yogyakarta telah diakui oleh Pemerintah sebagai perguruan tinggi dengan 
+              kualitas Baik Sekali</p>
+          </div>
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fa-solid fa-book fa-5x"></i></i></span>
+            <h3 class="mt-3">Kurikulum Terbaru</h3>
+            <p>Perkembangan dunia teknologi informasi begitu cepat. Universitas AMIKOM Yogyakarta menyediakan 
+              kurikulum yang mengimbangi perkembangan zaman
+            </p>
+          </div>
+          <div class="col-md-4">
+            <span class="lingkaran"><i class="fa-solid fa-computer fa-5x"></i></span>
+            <h3 class="mt-3">Fasilitas Unggulan</h3>
+            <p>Fasilitas terbaik disiapkan agar mahasiswa nyaman dalam mengikuti perkuliahan.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Section about end-->
+
+    <!-- Image slide start-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="asset/20210508122754.jpg" class="d-block w-100" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="asset/labpraktikum.jpeg" class="d-block w-100" alt="Slide 2">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <section id="daftar"></section>
+    </div>
+<!-- Image slide end-->
+
+<!-- section pendaftaran start -->
+<section  class="admission">
+  <div class="container">
+    <div class="text-content">
+      <h2>2024</h2>
+      <h1>Penerimaan Mahasiswa Baru</h1>
+      <p>Pendaftaran Mahasiswa Baru Universitas AMIKOM YOGYAKARTA tahun ajaran 2024/2025 telah dibuka, anda dapat mengunjungi counter pendaftaran yang ada di Kampus kami atau dapat mengakses PMB AMIKOM 
+        untuk keterangan lebih lanjut. 
+        Anda juga dapat menghubungi untuk mendapatkan informasi tentang pendaftaran.</p>
+      <a href="#" class="btn-daftar">Pendaftaran →</a>
+    </div>
+    <div class="img-container">
+      <img src="asset/Beasiswa_Olahraga-removebg-preview.png" alt="">
+    </div>
+  </div>
+</section> 
+<section id="contact"></section>
+
+<!-- section pendaftaran end -->
+
+    <section class="contact"  >
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.2908372987285!2d110.4093215835555!3d-7.758947949236822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a599bd3bdc4ef%3A0x6f1714b0c4544586!2sUniversitas%20Amikom%20Yogyakarta!5e0!3m2!1sid!2sid!4v1719651723820!5m2!1sid!2sid" width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputNama" class="form-label">Nama</label>
+      <input type="text" class="form-control" id="Username" aria-describedby="nameHelp">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Pesan</label>
+      <textarea type="text" class="form-control input-pesan" id="exampleInputPassword1"></textarea>
+    </div>
+    <button type="submit" class="btn button-submit-form ">Submit</button>
+  </form>
+</section>
+
+<footer>
+  <div class="social">
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+  </div>
+  <div class="credit">
+    <p>UNIVERSITAS AMIKOM YOGYAKARTA</p>
+    <a>Copyright &copy; 2024</a>
+  </div>
+</footer>
+
+</body>
+    <!-- Feather Icons-->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</html>
